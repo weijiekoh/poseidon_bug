@@ -34,7 +34,7 @@ then there is a bug with the Poseidon hash contract bytecode generator.
 The bug occurs when the `t` value is set to anything other than 6:
 
 ```js
-poseidonGenContract.createCode(4, 8, 57, POSEIDON_SEED)
+poseidonGenContract.createCode(3, 8, 57, POSEIDON_SEED)
 ```
 
 It returns the same value for any input, which should not be the case.
