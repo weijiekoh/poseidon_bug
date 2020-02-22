@@ -1,0 +1,20 @@
+{
+    "name": "poseidon_bug",
+    "version": "0.0.1",
+    "description": "",
+    "main": "build/index.js",
+    "scripts": {
+        "watch": "tsc --watch",
+        "ganache": " ganache-cli --mnemonic 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat'",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "ethers": "4.0.38",
+        "circomlib": "0.0.20",
+        "ganache-cli": "^6.7.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.20",
+        "@types/node": "^12.7.7"
+    }
+}
